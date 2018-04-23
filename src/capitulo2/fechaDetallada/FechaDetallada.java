@@ -16,6 +16,14 @@ public class FechaDetallada extends Fecha {
 			,"Octubre"
 			,"Noviembre"
 			,"Diciembre"};
+	
+	public FechaDetallada(int dia, int mes, int anio) {
+		super(dia,mes,anio);
+	}
+	
+	public FechaDetallada() {
+		super();
+	}
 
 	public String toString() {
 		return getDia()+" de "+meses[getMes()-1]+" de "+getAnio();
@@ -26,9 +34,6 @@ public class FechaDetallada extends Fecha {
 	}
 	
 	
-	public FechaDetallada() {
-		
-	}
-	}
+}
 
 
