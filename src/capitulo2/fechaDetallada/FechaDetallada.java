@@ -22,7 +22,7 @@ public class FechaDetallada extends Fecha {
 	}
 	
 	public FechaDetallada() {
-		super();
+		this(0,0,0);
 	}
 
 	public String toString() {
@@ -32,6 +32,8 @@ public class FechaDetallada extends Fecha {
 	public FechaDetallada(String f){
 		super(f);
 	}
+	
+	
 	
 	
 }
